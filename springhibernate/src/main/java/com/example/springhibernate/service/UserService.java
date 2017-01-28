@@ -19,7 +19,7 @@ public class UserService extends BaseService {
 	 */
 	public UserInfo getUser() {
 		String hql = " from UserInfo where id = :id";
-		UserInfo user = (UserInfo) dataDao.getFirstObjectViaParam(hql, new String[] { "id" }, 1l);
+		UserInfo user = (UserInfo) dataDao.getObjectByCondition(hql, new String[] { "id" }, 1l);
 		if (user == null) {
 			addUser();
 			user = dataDao.getObjectById(UserInfo.class, 1l);
