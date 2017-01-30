@@ -1,4 +1,4 @@
-package com.example.springhibernate.service;
+package com.qiuch.springhibernate.service;
 
 import java.io.Serializable;
 import java.util.List;

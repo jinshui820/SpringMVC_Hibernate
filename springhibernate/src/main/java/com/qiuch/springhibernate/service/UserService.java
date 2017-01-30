@@ -1,4 +1,4 @@
-package com.example.springhibernate.service;
+package com.qiuch.springhibernate.service;
 
 import java.util.Date;
 
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.springhibernate.pojo.UserInfo;
+import com.qiuch.springhibernate.pojo.UserInfo;
 
 @Service("userService")
 @Transactional(readOnly = true, propagation = Propagation.SUPPORTS)

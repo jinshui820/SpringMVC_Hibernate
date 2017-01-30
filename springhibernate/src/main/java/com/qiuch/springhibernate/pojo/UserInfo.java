@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.springhibernate.pojo;
+package com.qiuch.springhibernate.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
